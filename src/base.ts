@@ -16,4 +16,10 @@ export interface SagaDecorator {
     <T1, T2, T3, T4, T5, R>(
         saga: (t1: T1, t2: T2, t3: T3, t4: T4, t5: T5) => R
     ): (t1: T1, t2: T2, t3: T3, t4: T4, t5: T5) => R;
+    <T1, T2, T3, T4, T5, T6, R>(
+        saga: (t1: T1, t2: T2, t3: T3, t4: T4, t5: T5, t6: T6) => R
+    ): (t1: T1, t2: T2, t3: T3, t4: T4, t5: T5, t6: T6) => R;
+    <T1, T2, T3, T4, T5, T6, R>(
+        saga: (t1: T1, t2: T2, t3: T3, t4: T4, t5: T5, t6: T6, ...args: any[]) => R
+    ): (t1: T1, t2: T2, t3: T3, t4: T4, t5: T5, t6: T6, ...args: any[]) => R;
 }
