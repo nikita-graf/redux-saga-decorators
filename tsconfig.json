@@ -2,11 +2,10 @@
     "compilerOptions": {
       "module": "commonjs",
       "allowJs": true,
-      "lib": ["dom", "es2015", "es2015.iterable"]
+      "lib": ["dom", "es2015", "es2015.iterable"],
+      "outDir": "./lib"
     },
     "include": [
-        "**/*"
-    ],
-    "exclude": [
+        "src/**/*"
     ]
   }

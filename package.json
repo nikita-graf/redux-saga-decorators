@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "compile": "tsc",
+    "release": "release-it"
   },
   "author": "",
   "license": "ISC",
@@ -17,9 +19,11 @@
     "jest": "^23.4.1",
     "redux-mock-store": "^1.5.3",
     "redux-saga": "^0.16.0",
+    "release-it": "^7.5.0",
     "ts-jest": "^23.0.1",
     "typescript": "^2.9.2"
   },
+
   "jest": {
     "moduleFileExtensions": [
       "js",
